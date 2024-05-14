@@ -9,7 +9,7 @@ useCase: integrate-saas-sso
 
 # SharePoint 2010/2013 Integration
 
-Auth0 can help to radically simplify the authentication process for SharePoint. In this tutorial, you'll learn how to add <dfn data-key="single-sign-on">Single Sign-on (SSO)</dfn> to Sharepoint using Auth0. Your users will be able to log in using any of our [Social Identity Providers](/identityproviders) (Facebook, Twitter, Github, and so on), [Enterprise Providers](/identityproviders) (LDAP, Active Directory, ADFS, and so on) or with a username and password.
+Auth0 can help to radically simplify the authentication process for SharePoint. In this tutorial, you'll learn how to add <dfn data-key="single-sign-on">Single Sign-on (SSO)</dfn> to SharePoint using Auth0. Your users will be able to log in using any of our [Social Identity Providers](/identityproviders) (Facebook, Twitter, GitHub, and so on), [Enterprise Providers](/identityproviders) (LDAP, Active Directory, ADFS, and so on) or with a username and password.
 
 ## Setup
 
@@ -67,7 +67,7 @@ Enable-Auth0
   -allowWindowsAuth
 ```
 
-### 3. You now have Sharepoint configured
+### 3. You now have SharePoint configured
 
 You have configured SharePoint to use Auth0 as the SSO broker. When your users visit your site they'll be presented with a login page showing all the connections enabled for that application.
 
@@ -81,7 +81,7 @@ Depending on which claims have been mapped when installing the claims provider t
 
 You can customize the login page by following the instructions in the [documentation on customizing the login page](/universal-login#simple-customization).
 
-You might wish to provide a way to let users authenticate with Sharepoint using Windows Authentication, bypassing Auth0. You can do that by customizing the login page, adding a link to the Windows Authentication endpoint (usually similar to `https://yoursharepointserver/_windows/default.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx`).
+You might wish to provide a way to let users authenticate with SharePoint using Windows Authentication, bypassing Auth0. You can do that by customizing the login page, adding a link to the Windows Authentication endpoint (usually similar to `https://yoursharepointserver/_windows/default.aspx?ReturnUrl=/_layouts/15/Authenticate.aspx`).
 
 On way of doing it is by using jQuery to modify the <dfn data-key="lock">Lock widget</dfn> and add a link to the Windows Authentication endpoint.
 
