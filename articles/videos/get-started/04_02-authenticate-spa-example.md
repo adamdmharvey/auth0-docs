@@ -33,7 +33,7 @@ See an example using the Auth0 Quickstart for a single-page application (SPA) im
 
   We are also instructed to add our localhost development url to the **Callback URL** and **Allowed Web Origins** lists.
 
-  Finally, assuming that `node.js` is installed we can install our dependences and start the application.
+  Finally, assuming that `node.js` is installed we can install our dependencies and start the application.
 
   Now we can test the authentication by clicking the **Login** button.
 </details>

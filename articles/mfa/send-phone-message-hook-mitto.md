@@ -20,7 +20,7 @@ This guide explains how to send <dfn data-key="multifactor-authentication">Multi
 
 Mitto provides an SMS messaging service that can be used by Auth0 to deliver multi-factor verification via text messages. 
 
-## Prequisites
+## Prerequisites
 
 Before you begin this tutorial, please [create an account with Mitto](https://info.mitto.ch/mitto-auth0). You will get an API Key and a Sender ID that you can then use to invoke Mitto's APIs.
 

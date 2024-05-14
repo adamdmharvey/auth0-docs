@@ -20,7 +20,7 @@ This guide explains how to send <dfn data-key="multifactor-authentication">Multi
 
 Esendex provides an SMS messaging service that can be used by Auth0 to deliver multi-factor verification via text messages. 
 
-## Prequisites
+## Prerequisites
 
 Before you begin this tutorial, please:
 

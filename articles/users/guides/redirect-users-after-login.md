@@ -44,7 +44,7 @@ As an alternative method, you can create a [deep link using the `state` paramete
 
 In essence, you send a random value when starting an authentication request and validate the received value when processing the response (this implies you store something on the client application side, in session or other medium, that allows you to perform the validation). If you receive a response with a state that does not match, you were likely the target of an attack because this is either a response for an unsolicited request or someone trying to forge a response.
 
-Your application type determines the best place to keep the data that allows your app to validate the response. For example, assuming a pregressive web app is leveraging a SPA framework then it could store this in local storage while a traditional web app framework would store it in server-side session.
+Your application type determines the best place to keep the data that allows your app to validate the response. For example, assuming a progressive web app is leveraging a SPA framework then it could store this in local storage while a traditional web app framework would store it in server-side session.
 
 ## Redirect users to other URLs
 
